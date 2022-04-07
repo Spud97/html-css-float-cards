@@ -25,14 +25,50 @@ h1 {
     font-size: 28px;
 }
 
+h3 {
+    font-family:'Fredoka One';
+    font-size: 13px;
+}
+
 p {
     text-align: center;
     padding-top: 36px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.container {
+    padding-top: 36px;
+}
+
+.box {
+    background-color: rgb(3, 3, 44);
+    display: inline-block;
+}
+
+.foto {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.info {
+    color: white;
+    padding: 10px;
+    padding-left: 93px;
+    padding-right: 50px;
+}
+
+.ruolo {
+    font-size: 11px;
+}
+
+.email {
+    font-size: 10px;
+    color: rgb(5, 189, 225);
 }
